@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+h3 {
+  color: Blue;
+  text-align: center;
+  font-size:78px;
+}
+p {
+color: Red;
+text-align: left;
+font-family: copperplate;
+font-size: 24px;
+}
+img {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+#grad1 {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, orange, yellow, green, cyan, indigo, violet );
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+</style>
 <title>Copypastas</title>
 <meta charset="utf-8"/>
 </head>
 <body>
-
-	<h1>Erinevad Copypasta kogumikud</h1>
+<div id="grad1">
+<div class = "row">
+	<div class="column">
+	
+	<h3>Erinevad Copypasta kogumikud</h3>
 	<p>See leht annab infot kust võib saada copypastasi <i>copypastasi</i>.</p>
 	<p>Ühe saate kohe lugeda <a href="https://www.twitchquotes.com/copypastas/labels/classic?sortby=new" target="_blank">siit</a> lehelt.</p>
 	<br />
@@ -26,7 +60,10 @@
 			</ul>
 		</li>
 	</ul>
-
+	
+	</div>
+	<div class="column">
+	
 	<table>
         <tr>
             <th>Merevägi</th>
@@ -53,6 +90,7 @@
     <br />
 
     <p>Liigu edasi uuele lehele, klõpsates <a href="./uus_leht.html">siia</a>.</p>
-
+	</div>
+</div>
 </body>
 </html>
